@@ -1,0 +1,97 @@
+/* phone.css will show how your website will look in phone */
+
+
+/* Navigatiion */
+
+*{
+    
+}
+#navbar{
+    flex-direction: column;
+    margin: -8px;
+    padding: -1px;
+}
+#navbar ul li a{
+    display: inline;
+    font-size: 1rem;
+    padding: 0px;
+}
+
+/* Home section */
+
+#home{
+    /* width: 100%/; */
+    height: 400px;
+    padding: 2px;
+    margin: -8px;
+    padding: -1px;
+}
+#home p{
+    font-size: 12px;
+
+}
+.h-primary{
+    font-size: 2.2rem;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+#sevices.box{
+    padding: 14px;
+    margin:2px 15px;
+    margin-bottom: 20px;
+
+}
+#cu.pn{
+    width:100%;
+}
+#services img{
+    margin-top: 10px;
+    height: 104px;
+    width: 171px;
+    /* margin-left: 0px; */
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#home{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+#client{
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.cmg{
+    
+    height: 20px;
+    margin: 5px;
+    width: 20px;
+    padding: 4px;
+}
+.box{
+    width: 100%;
+}
+/* Client section */
+#client{
+    overflow: hidden;
+
+}
+
+/* Contact us section */
+#cu{
+
+
+}
+/* footer */
+.center{
+
+
+}
