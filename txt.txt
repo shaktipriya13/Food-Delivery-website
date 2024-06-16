@@ -1,0 +1,50 @@
+# how to pen browser: write in terminal
+# 1. cd myapp
+# 2. npm start
+
+# vimp note: In JSX, component names must be capitalized. 
+
+come into folder my app & write "npm start"
+//this will run react application in browser
+
+we don't touch src & public folder in 90%cases
+
+App.js me jo bhi ha wo apko browser me dikhega
+
+1. ReactDOM.render() controls the contents of the container node you pass in.Currently returns a refernce to the root ReactComponent instance.
+delete index.css,app.css,logo.svg, reportWebVitals.js & app.test.js from src folder
+
+# to write inline CSS, use js code & treat ur css as an object of JS
+
+2. our first component in React.JS:
+3 things are mandatory and that are:
+1> import React from "react"
+2>any 1 function(functional component)
+3>it should always return JSX
+
+# note: 2 components in react can't have same name
+
+# note for using JSX
+# 1. it always uses a single elmnt..only 1 main div acn be there
+# 2. use div/main/section/article or React fragment to wrap all ur JSX Code
+# best is to use React Fragment
+# small format of React Fragment  <> text</> ..ie. only opening & closing tag
+# 3. in react , we hv to use ClassName in place of class for applying css
+# 4. in JSX, we hv to close every opeing tag, even img tag:
+eg: <img src="" alt=""></img> or
+<img src="" alt="" />
+# 5. use camelCase for attribute names having more than 1 word
+# 6. component name first letter keep capital
+# function ko react me component kehte ha
+
+
+//to deal with images in react: open image in new tab, copy link and paste directly.eg:
+<img src="https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Masala-Maggi-Recipe-Step-By-Step-Instructions-scaled.jpg" alt="images" className="card-media" />
+
+note: useState Hooks is used to store and hold data with it for sometime
+useState returns an array of 2 elmnts
+useState is used to manage the data in React application
+
+using Props we can follow "DRY" principle rule
+
+//to host react website , first make a build folder..type command "npm run build" in terminal
