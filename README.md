@@ -6,7 +6,7 @@ Here’s your **Snap Eats** README with emojis for a more engaging look:
 
 **Snap Eats** is a modern **food ordering web application** built using **React, Tailwind CSS, and React Toasts**. The platform provides a **seamless** user experience for **browsing, selecting, and ordering** food items online.  
 
-🚀 **Live Demo:** [Snap Eats](#) *(https://snap-eats.netlify.app/)*  
+🚀 **Live Demo:** [https://snap-eats.netlify.app/](#) 
 
 ---
 
